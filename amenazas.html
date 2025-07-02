@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad - Amenazas Comunes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ciberseguridad</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas Comunes</a></li>
+                <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos de Seguridad</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Amenazas Comunes</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/phishing-concept-illustration_114360-7314.jpg" class="card-img-top" alt="Phishing">
+                <div class="card-body">
+                    <h5 class="card-title">Phishing</h5>
+                    <p class="card-text">El phishing es un intento de obtener información confidencial, como nombres de usuario y contraseñas, a través de correos electrónicos fraudulentos.</p>
+                </div>
+            </div>
+          <div class="card">
+                <img src="https://img.freepik.com/free-vector/ransomware-attack-abstract-concept-illustration_335657-4720.jpg" class="card-img-top" alt="Ransomware">
+                <div class="card-body">
+                    <h5 class="card-title">Ransomware</h5>
+                    <p class="card-text">El ransomware es un tipo de malware que bloquea el acceso a los archivos de la víctima y exige un rescate para liberarlos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/malware-abstract-concept-illustration_335657-4721.jpg" class="card-img-top" alt="Malware">
+                <div class="card-body">
+                    <h5 class="card-title">Malware</h5>
+                    <p class="card-text">El malware es un software malicioso diseñado para dañar o explotar cualquier dispositivo, red o servicio.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/ddos-attack-abstract-concept-illustration_335657-4725.jpg" class="card-img-top" alt="Ataques DDoS">
+                <div class="card-body">
+                    <h5 class="card-title">Ataques DDoS</h5>
+                    <p class="card-text">Los ataques DDoS (Denegación de Servicio Distribuida) buscan hacer que un servicio en línea no esté disponible al abrumar el servidor con tráfico.</p>
+                </div>
+            </div>
+        </div>
+        
+            <div id="threatsCarousel" class="carousel slide mt-4 mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#threatsCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#threatsCarousel" data-slide-to="1"></li>
+                <li data-target="#threatsCarousel" data-slide-to="2"></li>
+                <li data-target="#threatsCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="https://img.freepik.com/free-vector/phishing-concept-illustration_114360-7314.jpg" class="d-block w-100" alt="Ejemplo de ataque phishing">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Phishing</h5>
+                        <p>Ejemplo de correo electrónico fraudulento</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/ransomware-attack-abstract-concept-illustration_335657-4720.jpg" class="d-block w-100" alt="Ejemplo de ransomware">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ransomware</h5>
+                        <p>Pantalla de rescate bloqueando archivos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/ddos-attack-abstract-concept-illustration_335657-4725.jpg" class="d-block w-100" alt="Ejemplo de ataque DDoS">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ataque DDoS</h5>
+                        <p>Tráfico malicioso abrumando servidores</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/malware-abstract-concept-illustration_335657-4721.jpg" class="d-block w-100" alt="Ejemplo de malware">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Malware</h5>
+                        <p>Software malicioso diseñado para dañar dispositivos</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#threatsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#threatsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

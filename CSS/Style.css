@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.card {
+    margin: 10px;
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+}
+.carousel {
+    background-color: rgb(70, 67, 67); /* Establece el fondo blanco para el carrusel */
+ 
+   
+}
+.carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 400px; /* Mantiene la proporción de la imagen */
+     object-fit: contain; /* Mantiene la proporción de la imagen y se ajusta dentro del contenedor */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.carousel-caption h5,
+.carousel-caption p {
+    color: rgb(8, 89, 188); /* Cambia el color del texto a azul */
+}
